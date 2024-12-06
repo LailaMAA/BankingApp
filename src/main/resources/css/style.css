@@ -1,0 +1,92 @@
+/* General Layout */
+.root {
+    -fx-font-family: "Arial", sans-serif;
+    -fx-background-color: #f4f4f9; /* Soft background color */
+    -fx-padding: 20;
+}
+
+/* Title Styling */
+.label-title {
+    -fx-font-size: 24px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+    -fx-padding: 10 0 20 0;
+}
+
+/* Labels */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #555;
+    -fx-padding: 5 0 5 0;
+}
+
+/* Text Fields */
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ccc;
+    -fx-border-radius: 5;
+    -fx-background-radius: 5;
+    -fx-padding: 5;
+    -fx-font-size: 14px;
+}
+
+.text-field:focused {
+    -fx-border-color: #4a90e2; /* Highlight on focus */
+}
+
+/* Buttons */
+.button {
+    -fx-background-color: #4a90e2;
+    -fx-text-fill: #ffffff;
+    -fx-font-weight: bold;
+    -fx-background-radius: 5;
+    -fx-border-radius: 5;
+    -fx-padding: 10 15;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+}
+
+.button:hover {
+    -fx-background-color: #357abf; /* Darker shade on hover */
+}
+
+.button:pressed {
+    -fx-background-color: #2a5a8e; /* Darker on click */
+}
+
+/* Balance Display */
+.label-balance {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #4a90e2;
+    -fx-padding: 10 0 20 0;
+}
+
+/* Error and Success Messages */
+.label-error {
+    -fx-text-fill: #e74c3c; /* Red for errors */
+    -fx-font-weight: bold;
+}
+
+.label-success {
+    -fx-text-fill: #2ecc71; /* Green for success */
+    -fx-font-weight: bold;
+}
+
+/* Panel Styling */
+.panel {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #ddd;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-padding: 20;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 10, 0.3, 0, 4);
+}
+
+/* Headers */
+.header {
+    -fx-font-size: 18px;
+    -fx-font-weight: bold;
+    -fx-text-fill: #333;
+    -fx-padding: 10 0;
+}
